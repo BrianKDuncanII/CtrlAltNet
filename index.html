@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+        Black: 000000
+        Blue: 4576b0
+        White: eee5e9
+        Gray: 7c7c7c
+        Plum: ad6a62
+    -->
+
     <!--Font Awesome CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -19,40 +25,43 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
     <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
 </head>
 
 <body>
-        <div id="social_icon_container">
-            <div style="text-align: center; margin-left: -630px; margin-top: 250px;">
-                <a href="#"><i id="social_icon" class="fab fa-facebook fa-2x"></i></a>
-                <a href="#"><i id="social_icon" class="fab fa-instagram fa-2x"></i></a>
-            </div>
-        </div>
-        <div style="margin-top: 50px; text-align:center;">
-            <div class="slide-in-left" style="margin-top: 100px; display: inline; margin-right: 150px;">
-                <h1 style="display:inline;" id="company_name">Ctrl+Alt+</h1>
-                <h1 style="display:inline;" id="company_name_net"><a id="company_name_link" href="#">Net</a></h1>
-            </div>
-            <img style="color: #4286f4; height: 275px; display:inline;" src="svg/web-programming.svg">
-        </div>
-
-        <div style="margin: auto; width: 100px;">
-            <div style="text-align: center; width: 200px; margin-left: -250px; margin-top: -100px;">
-                <h3 class="underline " id="menu_item"><i style="margin-right: 5px;" class="fas fa-concierge-bell"></i><a class="animsition-link"
-                        href="services.html">Services</a></h3>
-                <h3 class="underline" style="margin-left: 20px; margin-top: -3px;" id="menu_item"><i
-                        style="margin-right: 5px;" class="fas fa-paint-brush"></i><a href="#">Projects</a></h3>
-                <h3 class="underline" style="margin-left: 0px;" id="menu_item"><i style="margin-right: 5px;"
-                        class="fas fa-question-circle"></i><a href="#">About</a></h3>
-                <h3 class="underline" style="margin-left: 45px" id="menu_item"><i style="margin-right: 5px;"
-                        class="fas fa-comments"></i><a href="#">Contact</a></h3>
-            </div>
-        </div>
-    <div class="footer">
-        <p>CtrlAltNet - 2019</p>
+    <div style="margin-top: 25px;">
+        <h2 id="logo_text" style="display: inline; margin-right: 10px;">Ctrl + Alt +</h2>
+        <button>Net</button>
     </div>
+
+    <div style="margin-top: 15px;">
+        <a href="#"><h3 style="display: inline;">Home</h3></a>
+        <div class="divider"></div>
+        <a href="#"><h3 style="display: inline;">Pricing</h3></a>
+        <div class="divider"></div>
+        <a href="#"><h3 style="display: inline;">Hosting</h3></a>
+        <div class="divider"></div>
+        <a href="#"><h3 style="display: inline;">Contact</h3></a>
+    </div>
+
+    <div style="margin-top: 50px;">
+        <h3 id="slogan" style="text-align: center;">Websites - For Your Global Reach</h3>
+        <div class="earth">
+            <div class="earth--shadow"></div>
+        </div>
+    </div>
+
+    <ul style="margin-top: 600px; text-align: center;" class="list-group list-group-horizontal">
+            <li style="width: 700px;" class="list-group-item"><img style="width: 200px;" src="svg/server.svg"><h3>Site Hosting</h3><p>CtrlAltNet Offers Hosting<br> to fit your business needs!</p></li>
+            <li style="width: 700px;" class="list-group-item"><img style="width: 200px; margin-bottom: 15px;" src="svg/code.svg"><h3>Coded From Scratch</h3><p>Our websites are built from the ground up<br> so we can custom tailor to your liking.</p></li>
+            <li style="width: 700px;" class="list-group-item"><img style="width: 200px; margin-bottom: 22px;" src="svg/rocket.svg"><h3>Fast Launch</h3><p>We're dedicated to bringing your site to you<br> as fast as possible!</p></li>
+          </ul>
 </body>
+
+<footer>
+    <p style="color: white; text-align: center;">© CtrlAltNet - 2019</p>
+</footer>
